@@ -111,6 +111,7 @@ public class MainActivity extends AppCompatActivity {
 
        @Override
         public View getView(int position,View ConvertView, ViewGroup parent){
+
            LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
            View row=inflater.inflate(R.layout.item_list,parent,false);
 
